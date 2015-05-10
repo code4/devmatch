@@ -24,6 +24,9 @@ gem 'coffee-rails', '>= 4.0.0'
 #Use bootstrap for CSS styles
 gem 'bootstrap-sass'
 
+#Use font awesome for icons
+gem 'font-awesome-sass', '4.2.0'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
