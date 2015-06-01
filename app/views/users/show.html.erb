@@ -12,8 +12,9 @@
 			</div>
 				<% if current_user.plan_id == 2 %>
 					<div class="well profile-block contact-info">
-	  					<%= @user.profile.phone_number %><br/>
-	  					<%= @user.profile.contact_email %><br/>
+						<h3> Contact Info </h3>
+	  						<%= @user.profile.phone_number %><br/>
+	  						<%= @user.profile.contact_email %><br/>
 	  				</div>
 				<% end %>	
 		</div>
