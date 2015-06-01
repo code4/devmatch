@@ -1,7 +1,7 @@
 <% if @user.profile %>
 	<div class="row">
 		<div class="col-md-3 text-center">
-			<%= image_tag @user.profile.avatar.url %> <br/>
+			<%= image_tag @user.profile.avatar.url, class: 'user-show-avatar'%> <br/>
 		</div>
 		<div class="col-md-6 text-left">
 			<h1> <%= @user.profile.first_name %> <%= @user.profile.last_name %></h1>
